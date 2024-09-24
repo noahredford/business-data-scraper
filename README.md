@@ -11,9 +11,13 @@ This Python script uses the Google Places API to collect business data, includin
 ## Use Case:
 This project has been instrumental in helping multiple fire departments find business data within their jurisdiction, particularly during the onboarding process with fire safety software companies. By pulling accurate business information, fire departments can streamline inspections and enhance data accuracy for their fire safety management systems.
 
-## Setup:
-1. Clone the repo
-2. Install dependencies using:
-   ```bash
-   pip install -r requirements.txt
-3. Add your Google API key
+## How to Use
+1. Get a Google Places API key.
+2. Replace `'your_google_places_api_key'` in the script with your actual API key.
+3. Update the `location` coordinates to your desired location.
+4. Modify the `queries` list to search for the types of businesses you want.
+5. Run the script, and the results will be saved to `businesses_output.xlsx`.
+
+## Requirements
+- `requests` library
+- `pandas` library
